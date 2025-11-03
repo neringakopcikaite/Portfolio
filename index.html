@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <header>
+      <nav>
+        <div class="logo">Madelyn Tarff</div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="header-content">
+        <span class="header-subtitle">UI/UX DESIGNER</span>
+        <h1 class="header-title">Hello, my name is Madelyn Torff</h1>
+        <p class="header-description">
+          Short text with details about you, what you do or your professional
+          career. You can add more information on athe about page.
+        </p>
+        <div class="header-buttons">
+          <button>Projects</button>
+          <button>LinkedIn</button>
+        </div>
+      </div>
+      <div class="header-img"></div>
+    </header>
+    <main>
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-1 card">
+          <div class="project-1-content">
+            <h3>Project Name</h3>
+            <p>
+              I created this personal project in order to show how to create an
+              interface in Figma using a portfolio as an example
+            </p>
+            <button>View Project</button>
+          </div>
+          <img src="image2.png" alt="First project image" />
+        </div>
+        <div class="project-2 card">
+          <img src="image3.png" alt="Second project image" />
+          <div class="project-2-content">
+            <h3>Project Name</h3>
+            <p>
+              What was your role, your deliverables, if the project was
+              personal, freelancing
+            </p>
+            <button>View Project</button>
+          </div>
+        </div>
+        <div class="project-3 card">
+          <div class="project-3-content">
+            <h3>Project Name</h3>
+            <p>
+              You can also add in this description the type of the project, if
+              it was for web, mobile, electron.
+            </p>
+            <button>View Project</button>
+          </div>
+          <img src="image4.png" alt="Third project image" />
+        </div>
+      </section>
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+        <div class="social-media-links">
+          <!--Social media icons-->
+        </div>
+      </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+      <span class="watermark-text">Madelyn Tarff 2021</span>
+      <div class="footer-image"></div>
+    </footer>
+  </body>
 </html>
